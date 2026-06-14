@@ -104,8 +104,11 @@
 *.woff2   binary
 
 # Images.
+*.avif    binary
 *.bmp     binary
 *.gif     binary
+*.hdr     binary
+*.heif    binary
 *.ico     binary
 *.jfif    binary
 *.jpe     binary

@@ -1,9 +1,9 @@
 [build.environment]
-DART_SASS_VERSION = "1.99.0"
-GO_VERSION = "1.26.2"
-HUGO_VERSION = "0.161.0"
-NODE_VERSION = "24.15.0"
-TZ = "Europe/Oslo"
+DART_SASS_VERSION = "1.101.0"
+GO_VERSION = "1.26.3"
+HUGO_VERSION = "0.163.1"
+NODE_VERSION = "24.16.0"
+TZ = "America/Los_Angeles"
 
 [build]
 publish = "public"
@@ -12,6 +12,6 @@ command = """\
   tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
   rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
   export PATH="${HOME}/.local/dart-sass:${PATH}" && \
-  git config core.quotepath false && \
+  git config --global core.quotepath false && \
   hugo build --gc --minify --baseURL "${URL}"
   """
