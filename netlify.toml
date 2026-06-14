@@ -5,7 +5,7 @@ HUGO_VERSION = "0.163.1"
 NODE_VERSION = "24.16.0"
 TZ = "America/Los_Angeles"
 #HUGO_CACHEDIR = "/opt/build/repo/.hugo_cache" # /opt/build/cache/hugo_cache/
-BROWSERSLIST="last 2 versions, > 0.5%"
+# /opt/build/cache/node_modules/autoprefixer/package.json
 
 [build]
 publish = "public"
@@ -16,5 +16,5 @@ command = """\
   rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
   export PATH="${HOME}/.local/dart-sass:${PATH}" && \
   git config --global core.quotepath false && \
-  hugo build --gc --minify --baseURL "${URL}"
+  hugo build --gc --minify --baseURL "${URL}" --logLevel info
   """
