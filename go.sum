@@ -1,5 +1,7 @@
 github.com/bep/testing101 v0.0.0-20260614104159-9503e42c4285 h1:KoM2U2lhhDVjzKY0dI0ewM1lNqMqH+SbTyW6nNA11Ag=
 github.com/bep/testing101 v0.0.0-20260614104159-9503e42c4285/go.mod h1:JrpKIky9Qv36PNSW/5deqchWibZj6LcN8Va0V+Mp5Z8=
+github.com/bep/testing101 v0.0.0-20260614105219-0916f6f4fedc h1:T3CiCR4yHQ7Yco94vxX0dFoQfw/jeGPzd0Vxh1gff30=
+github.com/bep/testing101 v0.0.0-20260614105219-0916f6f4fedc/go.mod h1:JrpKIky9Qv36PNSW/5deqchWibZj6LcN8Va0V+Mp5Z8=
 github.com/jmooring/hugo-module-feature-test v0.4.0 h1:hYfz9uZ3OxxZT5b1qs/6FNnAOfUla05u90NYmxnrlVk=
 github.com/jmooring/hugo-module-feature-test v0.4.0/go.mod h1:6dpl5tFY0LV2DCXNt0H40hN6sEncF2robyG/rQDczHg=
 github.com/jmooring/hugo-module-feature-test v0.6.0 h1:hOs2H4bAZ+iUQJPQ06sOKNbN33vA4iPJpx3AyahNgNU=
