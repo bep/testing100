@@ -17,4 +17,4 @@ enableGitInfo = true
   _merge = 'deep'
 
 [[module.imports]]
-  path = 'github.com/jmooring/hugo-module-feature-test'
+  path = 'github.com/bep/testing101'
